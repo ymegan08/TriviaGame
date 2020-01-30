@@ -1,0 +1,72 @@
+body {
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-image: url("../images/background.jpg");
+}
+
+#title {
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    color: #f35626;
+	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+.btnstart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px;
+    border: 3px solid salmon;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.btnstart:hover {
+    color: salmon;
+}
+
+.timer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffe6e6;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 70%;
+}
+
+.questions .btndone {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px;
+    border: 3px solid salmon;
+    margin-top: 10px;
+}
+
+.questions, #timer, #gameOver, #correctAnswers, #wrongAnswers, #blankAnswers {
+    text-align: center;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Totally Trivial Trivia!</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:500,700&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css'href='css/style.css'>
+</head>
+<body>
+    <div class="container"> <!-- HEADER: TITLE + LAYOUT-->
+        <div id="title">
+            Totally Trivial Trivia!
+        </div>
+        <p id="timer" class="timeCount"></p> <!-- TIMER -->
+        <button class="btnstart"> Start </button> <!-- START BUTTON -->
+        <p id="gameOver"></p>
+        <p id="correctAnswers"></p>
+        <p id="wrongAnswers"></p>
+        <p id="blankAnswers"></p>
+        <form class="questions">
+            1. Which of the following had the 6th largest military in the world in 1989?
+            <div>
+                <input type="radio" class="question1" id="choice1" name="choice" value="Great Britain">
+                <label for="choice1">Great Britain</label>
+
+                <input type="radio" class="question1" id="choice2" name="choice" value="Soviet Union">
+                <label for="choice1">Soviet Union</label>
+
+                <input type="radio" class="question1" id="choice3" name="choice" value="Pepsi Company">
+                <label for="choice1">Pepsi Company</label>
+
+                <input type="radio" class="question1" id="choice4" name="choice" value="Tenessee">
+                <label for="choice1">Tenessee</label>
+            </div>
+        </form>
+        <form class="questions">
+            <br>2. What was the longest recorded flight of a chicken?
+            <div>
+                <input type="radio" class="question2" id="choice1" name="choice" value="6 Seconds">
+                <label for="choice1">6 Seconds</label>
+                <input type="radio" class="question2" id="choice2" name="choice" value="13 Seconds">
+                <label for="choice1">13 Seconds</label>
+                <input type="radio" class="question2" id="choice3" name="choice" value="2 Minutes 9 Seconds">
+                <label for="choice1">2 Minutes 9 Seconds</label>
+                <input type="radio" class="question2" id="choice4" name="choice" value="Chickens can't fly!">
+                <label for="choice1">Chickens can't fly!</label>
+            </div>
+        </form>
+        <form class="questions">
+            <br>3. What was the original name for the fruit "Kiwi"?
+            <div>
+                <input type="radio" class="question3" id="choice1" name="choice" value="Gooseberry">
+                <label for="choice1">Gooseberry</label>
+                <input type="radio" class="question3" id="choice2" name="choice" value="Tree Potato">
+                <label for="choice1">Tree Potato</label>
+                <input type="radio" class="question3" id="choice3" name="choice" value="Kiwifruit">
+                <label for="choice1">Kiwifruit</label>
+                <input type="radio" class="question3" id="choice4" name="choice" value="Smallermelon">
+                <label for="choice1">Smallermelon</label>
+            </div>
+        </form>
+        <form class="questions">
+            <br>4. How many hearts does an octopus have?
+            <div>
+                <input type="radio" class="question4" id="choice1" name="choice" value="One">
+                <label for="choice1">One</label>
+                <input type="radio" class="question4" id="choice2" name="choice" value="Eight">
+                <label for="choice1">Eight</label>
+                <input type="radio" class="question4" id="choice3" name="choice" value="Three">
+                <label for="choice1">Three</label>
+                <input type="radio" class="question4" id="choice4" name="choice" value="Two">
+                <label for="choice1">Two</label>
+            </div>
+        </form>
+        <form class="questions">
+            <br>5. Which movie did Tom Hanks score his first Academy Award nomination?
+            <div>
+                <input type="radio" class="question5" id="choice1" name="choice" value="Forrest Gump">
+                <label for="choice1">Forrest Gump</label>
+                <input type="radio" class="question5" id="choice2" name="choice" value="Big">
+                <label for="choice1">Big</label>
+                <input type="radio" class="question5" id="choice3" name="choice" value="Saving Private Ryan">
+                <label for="choice1">Saving Private Ryan</label>
+                <input type="radio" class="question5" id="choice4" name="choice" value="Sleepless In Seattle">
+                <label for="choice1">Sleepless In Seattle</label>
+            </div>
+        </form>
+        <form class="questions">
+            <button type= "submit" class="btndone"> Done </button>
+        </form>
+    </div>
+    <script src= "https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src='javascript/app.js'></script>
+</body>
+</html>
