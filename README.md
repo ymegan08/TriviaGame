@@ -10,5 +10,4 @@ Used:
 
 Site: https://ymegan08.github.io/TriviaGame/
 
-Demo:
 <a href="https://imgflip.com/gif/3q3jba"><img src="https://i.imgflip.com/3q3jba.gif" title="made at imgflip.com"/></a>
